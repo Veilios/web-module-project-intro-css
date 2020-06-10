@@ -21,10 +21,10 @@ The styles in your [design file](/design/desktop.jpg) include bright colors and 
 
 Follow these steps to set up and work on your project:
 
-- .[ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [Done] Create a forked copy of this project.
+- [Done] Add your Team Lead as collaborator on Github.
+- [Done] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [Done] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
 
@@ -32,24 +32,24 @@ Follow these steps to set up and work on your project:
 
 Once your repository is set up, practice what you learned today to style the site according to the given design. Your complete project should look similar to the desktop image. You should take the following actions, at a minimum:
 
-- [ ] Link your CSS stylesheet in the `index.html` and impliment a CSS reset 
-- [ ] Markup html semantically, such that it can be styled according to the given desktop image
-- [ ] Color the background of items in the navigation bar and footer with the following colors:
-  - [ ] Plan your Visit: `#FF764E`
-  - [ ] Learn About the Park: `#5ED3EB`
-  - [ ] Get Involved: `#FFCD69`
-- [ ] Change all font colors and styles according to design file
-  - [ ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
-  - [ ] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
-- [ ] Color the background of the main text body with `#DDB9A3`
-- [ ] Color the background of the footer with `#F9E7DC`
-- [ ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
-- [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
-  - [ ] A round image in the header
-  - [ ] Round corners on navigation and footer items
-  - [ ] Header image and text side by side
-  - [ ] Centered content and margins around content
-  - [ ] Footer image positioning
+- [Done] Link your CSS stylesheet in the `index.html` and impliment a CSS reset 
+- [Done] Markup html semantically, such that it can be styled according to the given desktop image
+- [ Done Color the background of items in the navigation bar and footer with the following colors:
+  - [Done] Plan your Visit: `#FF764E`
+  - [Done] Learn About the Park: `#5ED3EB`
+  - [Done] Get Involved: `#FFCD69`
+- [Done] Change all font colors and styles according to design file
+  - [Done] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
+  - [Done] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
+- [Done] Color the background of the main text body with `#DDB9A3`
+- [Done] Color the background of the footer with `#F9E7DC`
+- Done ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
+- [Done] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
+  - [Done] A round image in the header
+  - [Done] Round corners on navigation and footer items
+  - [Done] Header image and text side by side
+  - [Done] Centered content and margins around content
+  - [Done] Footer image positioning
 
 **Throughout your design you should avoid static units (pixels), and should instead use responsive units wherever possible.**
 
