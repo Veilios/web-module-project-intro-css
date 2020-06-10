@@ -61,6 +61,12 @@ nav a {
     text-align: center;
 }
 
+nav a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 nav .button1 {
     border: 1rem transparent;
     background-color: #FF764E;
@@ -93,6 +99,12 @@ header img {
     border-radius: 20rem;
     float: left;
     margin-left: 14%;
+}
+
+header img:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
 }
 
 header h1 {
@@ -146,6 +158,12 @@ section.fire img{
     margin-right: auto;
 }
 
+section.fire img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 section.fire p {
     display: inline-block;
     padding-left: 39%;
@@ -163,6 +181,12 @@ section.travel img {
     margin-right: auto;
     margin-top: 5rem;
     text-align: center;
+}
+
+section.travel img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 section.travel p {
