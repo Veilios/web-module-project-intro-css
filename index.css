@@ -50,35 +50,41 @@ html {
 }
 
 nav a {
-    display: flex;
-    font-size: 1.6rem;
+    display: inline-block;
+    font-size: 1.5rem;
     text-decoration: none;
     color: white;
     margin-top: 2rem;
     margin-bottom: 3rem;
     justify-content: space-around;
-    line-height: 1;
+    line-height: 1.1;
+    text-align: center;
 }
 
 nav .button1 {
     border: 1rem transparent;
     background-color: #FF764E;
     border-radius: 2rem;
-    padding: 1.5rem;
+    padding: 1.5rem 3rem;
+    margin-left: 20%;
+    margin-right: 13%;
 }
 
 nav .button2 {
     border: 1rem transparent;
     background-color: #5ED3EB;
     border-radius: 2rem;
-    padding: 1.5rem;
+    padding: 1.5rem 3rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav .button3 {
     border: 1rem transparent;
     background-color: #FFCD69;
     border-radius: 2rem;
-    padding: 1.5rem;
+    padding: 1.5rem 3rem;
+    margin-left: 13%;
 }
 
 header img {
@@ -86,7 +92,7 @@ header img {
     height: 25rem;
     border-radius: 20rem;
     float: left;
-    margin-left: 15rem;
+    margin-left: 14%;
 }
 
 header h1 {
@@ -109,14 +115,14 @@ header h2 {
 
  header .time {
     margin-top: 0.1rem;
-    margin-left: 53rem;
-    margin-right: 40rem;
+    margin-left: 55rem;
+    margin-right: 36rem;
     margin-bottom: 5rem;
 }
 
 section.bio {
     border: 0.1rem transparent;
-    padding: 1.5rem;
+    padding: 0.1rem 0.5rem;
     text-align: center;
     background: #DDB9A3;
     color: white;
