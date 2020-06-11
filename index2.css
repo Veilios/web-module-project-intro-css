@@ -46,7 +46,8 @@ table {
 }
 
 html {
-    font-size: 10px;
+    font-size: 62.5%;
+
 }
 
 nav a {
@@ -132,7 +133,82 @@ header h2 {
     margin-bottom: 5rem;
 }
 
+section.how {
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
 
+section.how h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+section.how img {
+    height: 20rem;
+    width: 20rem;
+}
+
+section.how p {
+    background: rosybrown;
+    padding: 1.5rem;
+    margin-bottom: 5rem;
+    line-height: 2rem;
+}
+
+section.do {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+section.do div a {
+    font-size: 1.5rem;
+    color: white;
+    border: 1rem transparent;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+
+section.do div.donate a {
+    background: crimson;
+    width: 7rem;
+}
+
+section.do div a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+section.do div p {
+    font-size: 1.5rem;
+}
+
+section.do div {
+    height: 25rem;
+    width: 40rem;
+}
+
+section.do div.donate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.do div.volunteer a {
+    background: lightseagreen;
+}
+
+section.do div.volunteer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 footer img{
     display: inline-block;
