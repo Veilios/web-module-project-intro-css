@@ -25,8 +25,8 @@ Follow these steps to set up and work on your project:
 - [Done] Add your Team Lead as collaborator on Github.
 - [Done] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [Done] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [Done] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [Done] Push commits: git push -u origin `<firstName-lastName>`.
 
 ### Task 2: Minimum Viable Product
 
@@ -65,9 +65,9 @@ The completion of these questions is mandatory for MVP. However, passing the qui
 The following goals are designed to stretch your knowledge and may require additional research beyond what was learned in class today.
 
 - [Done] Add CSS animations (hover, mouseover, etc.)
-- [ ] Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
+- [Done] Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
 - [Done] Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
-- [ ] Host your website on Netlify.com
+- [https://dazzling-knuth-929b31.netlify.app/] Host your website on Netlify.com
 
 ## Resources
 
@@ -79,6 +79,6 @@ The following goals are designed to stretch your knowledge and may require addit
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull request
-- [ ] Your Team Lead will count the project as complete by merging the branch back into master
+- [Done] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [Done] Add your Team Lead as a reviewer on the pull request
+- [?] Your Team Lead will count the project as complete by merging the branch back into master
