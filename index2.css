@@ -47,6 +47,7 @@ table {
 
 html {
     font-size: 62.5%;
+
 }
 
 nav a {
@@ -132,71 +133,81 @@ header h2 {
     margin-bottom: 5rem;
 }
 
-section.bio {
-    border: 0.1rem transparent;
-    padding: 0.1rem 0.5rem;
-    text-align: center;
-    background: #DDB9A3;
-    color: white;
+section.how {
     font-size: 1.5rem;
-    margin-top: 10rem;
-    margin-left: 8rem;
-    margin-right: 8rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+section.how h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+section.how img {
+    height: 20rem;
+    width: 20rem;
+}
+
+section.how p {
+    background: rosybrown;
+    padding: 1.5rem;
+    margin-bottom: 5rem;
     line-height: 2rem;
 }
 
-section.bio p {
+section.do {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+section.do div a {
+    font-size: 1.5rem;
+    color: white;
+    border: 1rem transparent;
     padding: 1.5rem;
+    border-radius: 2rem;
 }
 
-section.fire img{
-    width: 12rem;
-    height: 12rem;
-    display: block;
-    margin-top: 5rem;
-    margin-left: auto;
-    margin-right: auto;
+section.do div.donate a {
+    background: crimson;
+    width: 7rem;
 }
 
-section.fire img:hover {
+section.do div a:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
 
-section.fire p {
-    display: inline-block;
-    padding-left: 39%;
-    padding-right: 39%;
-    text-align: center;
-    font-size: 1.4rem;
-    margin-top: 2rem;
+section.do div p {
+    font-size: 1.5rem;
 }
 
-section.travel img {
-    width: 12rem;
-    height: 12rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
-    text-align: center;
+section.do div {
+    height: 25rem;
+    width: 40rem;
 }
 
-section.travel img:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+section.do div.donate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-section.travel p {
-    display: inline-block;
-    padding-left: 38%;
-    padding-right: 38%;
-    text-align: center;
-    padding-bottom: 10rem;
-    font-size: 1.4rem;
-    margin-top: 1rem;
+section.do div.volunteer a {
+    background: lightseagreen;
+}
+
+section.do div.volunteer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 footer img{
